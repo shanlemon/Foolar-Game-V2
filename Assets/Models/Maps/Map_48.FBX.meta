@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: ad8d29020b4f9894c9a859b863c0aa2c
+timeCreated: 1518753930
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: FlagBlue01
+    100002: FlagBlue02
+    100004: FlagRed01
+    100006: FlagRed02
+    100008: Goal
+    100010: Goal001
+    100012: Ground
+    100014: //RootNode
+    100016: Stands
+    100018: Stands001
+    100020: Thrones01
+    100022: Thrones02
+    400000: FlagBlue01
+    400002: FlagBlue02
+    400004: FlagRed01
+    400006: FlagRed02
+    400008: Goal
+    400010: Goal001
+    400012: Ground
+    400014: //RootNode
+    400016: Stands
+    400018: Stands001
+    400020: Thrones01
+    400022: Thrones02
+    2100000: 'Material #7'
+    2100002: 'Material #4031'
+    2100004: 'Material #6'
+    2100006: 'Material #9'
+    2100008: 'Material #8'
+    2100010: 'Material #3986'
+    2100012: 'Material #10'
+    2100014: 'Material #3645'
+    2100016: 'Material #11'
+    2100018: 'Material #12'
+    2100020: 'Material #5'
+    2100022: 'Material #4066'
+    2100024: 'Material #3'
+    2300000: FlagBlue01
+    2300002: FlagBlue02
+    2300004: FlagRed01
+    2300006: FlagRed02
+    2300008: Goal
+    2300010: Goal001
+    2300012: Ground
+    2300014: Stands
+    2300016: Stands001
+    2300018: Thrones01
+    2300020: Thrones02
+    3300000: FlagBlue01
+    3300002: FlagBlue02
+    3300004: FlagRed01
+    3300006: FlagRed02
+    3300008: Goal
+    3300010: Goal001
+    3300012: Ground
+    3300014: Stands
+    3300016: Stands001
+    3300018: Thrones01
+    3300020: Thrones02
+    4300000: Stands
+    4300002: Ground
+    4300004: Goal
+    4300006: FlagBlue01
+    4300008: FlagRed01
+    4300010: FlagRed02
+    4300012: FlagBlue02
+    4300014: Thrones01
+    4300016: Thrones02
+    4300018: Stands001
+    4300020: Goal001
+    6400000: FlagBlue01
+    6400002: FlagBlue02
+    6400004: FlagRed01
+    6400006: FlagRed02
+    6400008: Goal
+    6400010: Goal001
+    6400012: Ground
+    6400014: Stands
+    6400016: Stands001
+    6400018: Thrones01
+    6400020: Thrones02
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
