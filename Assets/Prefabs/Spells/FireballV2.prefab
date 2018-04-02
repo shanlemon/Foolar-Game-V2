@@ -51,9 +51,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2903dc39885e33c42a9aa6f8fd9e4351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rigidbodies: []
+  icon: {fileID: 0}
   hologramPrefab: {fileID: 0}
   effect: {fileID: 1314168788820104, guid: 980c31dbd1996cd44bee7c7564fb9db5, type: 2}
+  anim: {fileID: 0}
+  delay: 0
   player: {fileID: 0}
+  playerCasting: {fileID: 0}
+  manaCost: 0
   cooldown: 60
   charges: 3
   currentCooldown: 0

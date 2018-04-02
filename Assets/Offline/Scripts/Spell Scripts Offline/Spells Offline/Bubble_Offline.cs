@@ -21,6 +21,7 @@ public class Bubble_Offline : Spells2_Offline {
 
 	public void CmdBubble(Vector3 loc, Quaternion rotation) {
 		anim.Play("Wall");
+		FindObjectOfType<AudioManager> ().Play ("bubble_start");
 		Instantiate(effect, loc, rotation);
 	}
 

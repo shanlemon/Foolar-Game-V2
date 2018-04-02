@@ -24,6 +24,7 @@ public class Bubble : Spells2 {
 	public void CmdBubble(Vector3 loc, Quaternion rotation) {
 		anim.Play("Wall");
 		GameObject obj = Instantiate(effect, loc, rotation);
+		FindObjectOfType<AudioManager> ().Play ("bubble_start");
 		NetworkServer.Spawn(obj);
 	}
 
