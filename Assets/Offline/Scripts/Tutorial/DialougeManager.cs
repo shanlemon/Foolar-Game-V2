@@ -29,6 +29,10 @@ public class DialougeManager : MonoBehaviour {
 	public void StartDialouge(Dialouge dialouge) {
 
 		d = dialouge;
+		if(anim == null) 
+			if(GameObject.Find("DialogueBox") != null)
+				anim = GameObject.Find("DialogueBox").GetComponent<Animator>();
+		
 		anim.SetBool("isDialougeOpen", true);
 		dialogueOn = true;
 		sentences.Clear();

@@ -48,7 +48,7 @@ public class GameController : MonoBehaviour {
 			}
 			if (b != null)
 				b.interactable = true;
-			else
+			else if(obj != null)
 				obj.SetActive(true);
 		}
 	}
@@ -95,11 +95,11 @@ public class GameController : MonoBehaviour {
 	}
 
     public void goBack() {
-        settingsOpen = !settingsOpen;
-        settings.SetActive(settingsOpen);
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-    }
+		lockControl();
+		if (settings == null)
+			settings = GameObject.Find("SettingsMenu");
+		settings.SetActive(settingsOpen);
+	}
 
 
 

@@ -22,7 +22,11 @@ public class HUDManager_Online : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		pc = GameObject.Find("Local").GetComponent<PlayerCasting>();
+		GameObject player = GameObject.Find("Local");
+		if(player != null) {
+			pc = player.GetComponent<PlayerCasting>();
+		}
+		
 		updateIcons();
 	}
 	

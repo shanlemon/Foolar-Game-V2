@@ -1230,6 +1230,7 @@ MonoBehaviour:
   attackSlider: {fileID: 0}
   ultimateSlider: {fileID: 0}
   pc: {fileID: 0}
+  pcO: {fileID: 0}
   abilityIcons:
   - {fileID: 21300000, guid: d477e2fd1c1254344b2d620beb5ac6b5, type: 3}
   - {fileID: 21300000, guid: 39cdf3335a58ce648800e35f21abc12d, type: 3}

@@ -24,4 +24,11 @@ public class MainMenu : MonoBehaviour {
 
 	}
 
+	public void showLobby() {
+		GameObject g = GameObject.Find("LobbyManager");
+		if(g != null) {
+			g.GetComponent<Canvas>().enabled = true;
+		}
+	}
+
 }

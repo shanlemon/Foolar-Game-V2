@@ -57,14 +57,22 @@ public class GameController_Offline : MonoBehaviour {
 	void Update() {
 		if (Input.GetKeyDown(KeyCode.Escape)) {
 			lockControl();
+			if (settings == null)
+				settings = GameObject.Find("SettingsMenu");
 			settings.SetActive(settingsOpen);
 		}
 	}
 
 	public void goBack() {
+		lockControl();
+		if (settings == null)
+			settings = GameObject.Find("SettingsMenu");
+		settings.SetActive(settingsOpen);
+		/*
 		settingsOpen = !settingsOpen;
 		settings.SetActive(settingsOpen);
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
+		*/
 	}
 }
