@@ -25,7 +25,7 @@ public class PlayerControl_Offline : MonoBehaviour {
     //jumping
     public float jumpForce;
     private bool jumpRequest;
-    private bool isGrounded;
+    public bool isGrounded;
     public static float normalGrav = Physics.gravity.y;
     public static float fallMultiplier = normalGrav * 2.5f;
     public static float lowJumpMultiplier = normalGrav * 2f;
