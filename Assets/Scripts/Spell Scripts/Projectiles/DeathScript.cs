@@ -5,6 +5,7 @@ using UnityEngine;
 public class DeathScript : MonoBehaviour {
 
 	public float lifeSpan;
+	public string deathSound;
 	public GameObject deathAnimation;
 
 	// Use this for initialization
@@ -16,6 +17,8 @@ public class DeathScript : MonoBehaviour {
 		if ((lifeSpan -= Time.deltaTime) <= 0) {
 			if(deathAnimation != null)
 				Instantiate (deathAnimation, gameObject.transform.position, gameObject.transform.rotation);
+			FindObjectOfType<AudioManager> ().Play (deathSound);
+
 			Destroy (gameObject);
 		}
 	}

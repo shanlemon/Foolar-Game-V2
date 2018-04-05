@@ -7,6 +7,7 @@ public class ProjectileController : MonoBehaviour {
 	public float moveSpeed, acc;
 	private Rigidbody rb;
 	public CollisionEffect collision;
+	public string deathsound;
 
 	public GameObject hitEffect;
 
@@ -43,6 +44,7 @@ public class ProjectileController : MonoBehaviour {
 			collision.collideEffect (obj.GetComponent<BallController>(), gameObject);
 			delete (.25f);
 		}
+		FindObjectOfType<AudioManager> ().Play (deathsound);
 		delete();
 	}
 }

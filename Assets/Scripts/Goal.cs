@@ -21,6 +21,7 @@ public class Goal : MonoBehaviour {
 		if (obj.tag.Equals ("Ball")) {
 			goalKeeper.RpcUpdateScore(teamIndex);
 			goalKeeper.resetGame ();
+			FindObjectOfType<AudioManager> ().Play ("cheer");
 		}
 	}
 
